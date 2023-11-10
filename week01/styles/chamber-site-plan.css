@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald:wght@600&family=Poppins:wght@300&display=swap');
+header
+{
+    background-color: royalblue;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-align: center;
+}
+section h2
+{
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+section
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
