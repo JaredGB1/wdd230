@@ -19,14 +19,22 @@
         font-size: 3rem;
     }
 
-    nav
+    .navigation
     {
         font-family: 'Oswald', sans-serif;
-        display: flex;
+        flex-direction: row;
         justify-content: space-around;
         background-color: aqua;
     }
-    nav a
+    .navigation li
+    {
+        display: block;
+        flex: 1 1 100%;
+    }
+    #menu{
+        display: none;
+    }
+    .navigation li a
     {
         text-align: center;
         color: black;
