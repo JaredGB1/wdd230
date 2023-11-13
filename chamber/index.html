@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guatemala City Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Mynor Jared Gonzalez Benavente Chamber of Commerce Website">
+    <meta name="author" content="Mynor Gonzalez">
+    <meta property="og:title" content="Mynor Jared Gonzalez Benavente - WDD230 - Web Frontend Development Chamber of Commerce Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://content.r9cdn.net/rimg/dimg/5b/19/50967fdb-city-43889-158b09eaf11.jpg?crop=true&width=1020&height=498">
+    <meta property="og:url" content="https://jaredgb1.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo Image">
+        <h1>Guatemala City Chamber of Commerce</h1>
+    </header>
+    <main>
+        <nav>
+            <button id="menu" aria-label="hamburgerButton"></button>
+            <ul class="navigation">
+               <li> <a href="#">Home</a></li> 
+               <li> <a href="#">Discover</a></li>
+               <li> <a href="#">Directory</a></li>
+               <li> <a href="#">Join</a> </li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/city.jpg" alt="Guatemala city image">
+            </div>
+            <div class="button-box">
+                <a class="join" href="#">Join the Chamber</a>
+            </div>     
+        </div>
+        <div id="maincontent">
+            <section id="event">
+                <h2>Events</h2>
+                <p>Placeholder</p>
+            </section>
+            <section id="weather">
+                <h2>Weather</h2>
+                <p>Placeholder</p>
+            </section>
+            <h2>Member Spotlights</h2>
+            <section id="member1">
+                <h2>Name 1</h2>
+                <p>hi123@gasg.com</p>
+                <p>123123123</p>
+                <a href="#">Website</a>
+            </section>
+            <section id="member2">
+                <h2>Name 2</h2>
+                <p>hello123@gasg.com</p>
+                <p>123123123</p>
+                <a href="#">Website</a>
+            </section>
+            <section id="member3">
+                <h2>Name 3</h2>
+                <p>yasuo123@gasg.com</p>
+                <p>123123123</p>
+                <a href="#">Website</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section id="generalInformation">
+            <img src="images/logo.jpg" alt="Logo Image">
+            <h3>Guatemala City Chamber of Commerce</h3>
+            <p>Zona 16, Ciudad de Guatemala</p>
+        </section>
+        <section id="contactInformation">
+            <p>info@guatemalacitycoc.example.com</p>
+            <p>+502 1234 5678</p>
+            <p>Location Map</p>
+        </section>
+        <section id="projectInformation">
+            <p id="currentYearP">&copy; <span id="currentYear"></span> Guatemala City Chamber of Commerce</p>
+            <p id="myName">Mynor Jared Gonzalez Benavente</p>
+            <p id="wdd230">WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerButton.js"></script>
+</body>
+</html>
