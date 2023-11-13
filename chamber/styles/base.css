@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald:wght@600&family=Poppins:wght@300&display=swap');
 header
 {
-    background-color: royalblue;
+    background-color: #2832C2;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    color: black;
+    color: white;
     text-align: center;
     display: flex;
     align-items: center;
@@ -242,7 +242,8 @@ footer
 {
     margin-top: 30px;
     padding: 30px;
-    background-color: royalblue;
+    background-color: #2832C2;
+    color: white;
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
