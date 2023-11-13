@@ -83,9 +83,19 @@ header img
 {
     display: block;
 }
+#mode {
+	text-align: right;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
 
-.main h2
+main{
+    padding: 10px;
+}
+main h2
 {
+    margin-bottom: 10px;
     text-decoration: underline;
 }
 .card
@@ -108,10 +118,17 @@ header img
 {
     list-style: none;
     text-align: left;
+    
 }
 .card li a
 {
     margin-left: 5px;
+    text-decoration: none;
+}
+.card li a:hover
+{
+    margin-left: 5px;
+    text-decoration: underline;
 }
 
 footer 
