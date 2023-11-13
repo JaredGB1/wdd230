@@ -114,6 +114,7 @@
     }
     #contactInformation
     {
+        margin-top: -15px;
         grid-column: 2/3;
         grid-row: 1/2;
     }
