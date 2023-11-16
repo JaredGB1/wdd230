@@ -48,4 +48,17 @@
         background-color: #BDE0FE;
     }
     
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 3rem;
+        font-family:"Great Vibes", serif;
+    }
+    iframe
+    {
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+    }
 }
