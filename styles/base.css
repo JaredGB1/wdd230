@@ -96,7 +96,7 @@ main{
 main h2
 {
     margin-bottom: 10px;
-    text-decoration: underline;
+    border-bottom: 3px solid black;
 }
 .card
 {
