@@ -1,0 +1,37 @@
+:root
+{
+    --border: hsla(0,0%,20%,.8);
+    --shadow: hsl(0,0%,50%);
+    --zebra: lightgray;
+}
+table
+{
+    font-size: 2rem;
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr, th, td
+{
+    padding: 20px;
+    border: 1px solid black;
+}
+th
+{
+    background-color: black;
+    color: white;
+}
+.title
+{
+    background-color: #696969;
+}
+table caption
+{
+    font-size: 1.4rem;
+    caption-side: bottom;
+}
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
