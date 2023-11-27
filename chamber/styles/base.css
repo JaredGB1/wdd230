@@ -18,6 +18,9 @@ header img
     padding: 10px;
     float: left;
     border-radius: 30px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 #menu {
 	font-size: 1.5rem;
@@ -271,4 +274,133 @@ footer h3
     font-size: 1.2rem;
     border-top: 2px solid gray;
     text-align: center;
+}
+/*Discover Page*/
+
+#events
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+#events h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+
+}
+#events p
+{
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+#population
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+#population h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
+#population p
+{
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+#places
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+#places h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
+#places p
+{
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+#about
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+#about h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
+#about p
+{
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+#culture, #architecture, #lastVisit
+{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+#culture h2, #architecture h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
+#culture p, #architecture p
+{
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+#lastVisit span
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+}
+#images
+{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px; 
+    border: 3px solid skyblue;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#images h2
+{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+    text-align: left;
+}
+#images img
+{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
 }

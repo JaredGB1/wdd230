@@ -137,4 +137,32 @@
     {
         border-right: 1px solid gray;
     }
+    /*Discover page*/
+    #grid
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #sidebarLayout
+    {
+        grid-column: 1/2;
+        margin-right: 5px;
+    }
+    #images
+    {
+        grid-column: 2/3;
+        width: auto;
+    }
+    #images img
+    {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
+    #images img:hover
+    {
+        box-shadow: 0 0 50px #333;
+    }
 }

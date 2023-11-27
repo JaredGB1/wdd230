@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guatemala City Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Mynor Jared Gonzalez Benavente Chamber of Commerce Website">
+    <meta name="author" content="Mynor Gonzalez">
+    <meta property="og:title" content="Mynor Jared Gonzalez Benavente - WDD230 - Web Frontend Development Chamber of Commerce Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://content.r9cdn.net/rimg/dimg/5b/19/50967fdb-city-43889-158b09eaf11.jpg?crop=true&width=1020&height=498">
+    <meta property="og:url" content="https://jaredgb1.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo Image">
+        <h1>Guatemala City Chamber of Commerce</h1>
+    </header>
+    <main>
+        <nav>
+            <button id="menu" aria-label="hamburgerButton"></button>
+            <ul class="navigation">
+               <li> <a href="index.html">Home</a></li> 
+               <li> <a href="discover.html">Discover</a></li>
+               <li> <a href="#">Directory</a></li>
+               <li> <a href="#">Join</a> </li>
+            </ul>
+        </nav>
+        <div id="grid">
+            <div id="sidebarLayout">
+                <section id="about">
+                    <h2>About Guatemala City</h2>
+                    <p>Guatemala City offers a mix of cultural, historical, and modern experiences. Like any city, it has its challenges, but it also provides opportunities to explore the unique character of Guatemala. Visitors can enjoy a vibrant urban environment, cultural attractions, and the warmth of the local people.</p>
+                </section>
+                <section id="culture">
+                    <h2>Culture and History</h2>
+                    <p>Guatemala City has a rich cultural and historical heritage. The city is home to numerous museums, galleries, and historical sites that showcase the country's Mayan and colonial past. The National Museum of Archaeology and Ethnology is particularly noteworthy, offering insights into Guatemala's indigenous cultures.</p>
+                </section>
+                <section id="architecture">
+                    <h2>Architecture</h2>
+                    <p>The city's architecture is a mix of modern and colonial influences. While you can find modern skyscrapers and contemporary structures, there are also historic buildings such as the National Palace and the Metropolitan Cathedral. The contrast between old and new adds an interesting dimension to the city's aesthetic.</p>
+                </section>
+                <section id="population">
+                    <h2>Guatemala Population</h2>
+                    <p>18,092,026</p>
+                    <p>Yearly Change</p>
+                    <p>1.39%</p>
+                </section>
+                <section id="places">
+                    <h2>Places of Interest in Guatemala</h2>
+                    <p>Palacio Nacional</p>
+                    <p>Cayala</p>
+                    <p>Tikal</p>
+                    <p>Lago Atitlan</p>
+                    <p>Antigua Guatemala</p>
+                    <p>Semuc Champey</p>
+                </section>
+                <section id="events">
+                   <h2>Events</h2>
+                   <p>Christmas December 25th</p>
+                   <p>Ney Year January 1st</p>
+                </section>
+                <section id="lastVisit"><span id="lastVisits"></span></section>
+            </div>
+            <div id="images">
+                <h2>Image Galery</h2>
+                <figure>
+                    <img class="image1" src="images/palacio.webp" alt="Palacio Nacional Guatemala" loading="lazy" width="400" height="250">
+                    <figcaption>Palacio Nacional of Guatemala</figcaption>
+                </figure>
+                <figure>
+                    <img class="image1" src="images/cayala.webp" alt="Cayala Guatemala City" loading="lazy" width="400" height="250">
+                    <figcaption>Cayala, Guatemala City</figcaption>
+                </figure>
+                <figure>
+                    <img class="image1" src="images/tikal.webp" alt="TIkal Guatemala" loading="lazy" width="400" height="250">
+                    <figcaption>Tikal Guatemala</figcaption>
+                </figure>
+                <figure>
+                    <img class="image1" src="images/atitlan.webp" alt="Lago de Atitlan" loading="lazy" width="400" height="250">
+                    <figcaption>Lago de Atitlan Guatemala</figcaption>
+                </figure>
+                <figure>
+                    <img class="image1" src="images/antigua.webp" alt="Antigua Guatemala" loading="lazy" width="400" height="250">
+                    <figcaption>Antigua Guatemala</figcaption>
+                </figure>
+                <figure>
+                    <img class="image1" src="images/semuc.webp" alt="Semuc Champey" loading="lazy" width="400" height="250">
+                    <figcaption>Semuc Champey Guatemala</figcaption>
+                </figure>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <section id="generalInformation">
+            <img src="images/logo.jpg" alt="Logo Image">
+            <h3>Guatemala City Chamber of Commerce</h3>
+            <p>Zona 16, Ciudad de Guatemala</p>
+        </section>
+        <div id="contactInformation">
+            <p>info@guatemalacitycoc.example.com</p>
+            <p>+502 1234 5678</p>
+            <p>Location Map</p>
+        </div>
+        <div id="projectInformation">
+            <p id="currentYearP">&copy; <span id="currentYear"></span> Guatemala City Chamber of Commerce</p>
+            <p id="myName">Mynor Jared Gonzalez Benavente</p>
+            <p id="wdd230">WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerButton.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+</body>
+</html>
