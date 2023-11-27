@@ -240,6 +240,7 @@ header img
     font-size: 1.1rem;
     margin-left: 15px;
 }
+
 footer
 {
     margin-top: 30px;
@@ -254,6 +255,12 @@ footer h3
     padding: 5px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
+}
+footer img
+{
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 #generalInformation img
 {
