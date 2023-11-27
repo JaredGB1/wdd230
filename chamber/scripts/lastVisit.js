@@ -1,12 +1,12 @@
 const visitsDisplay = document.querySelector("#lastVisits");
 const msToDays = 84600000;
 const today=Date.now();
-const lastVisit= localStorage.getItem('lastVisit') || Date.now();
+const lastVisit= localStorage.getItem('lastVisit') || 0;
 const numberOfDaysLastVisit= lastVisit/msToDays;
 const numberOfDaysToday=today/msToDays;
 const days=numberOfDaysToday-numberOfDaysLastVisit;
 const roundedDays=Math.round(days);
-if(days==0)
+if(lastVisit==0)
 {
     visitsDisplay.textContent="Welcome! Let us know if you have any questions.";
 }
