@@ -5,7 +5,9 @@
 }
 :root
 {
-    
+   --background: skyblue;
+   --border-color: rgba(0,0,0,.3);
+   --navigation-background: aqua;
 }
 body {
 	font-family: 'Poppins', sans-serif;
@@ -13,7 +15,7 @@ body {
     justify-content: center;
 }
 header{
-    background-color: skyblue;
+    background-color: var(--background);
     text-align: center;
     display: flex;
     align-items: center;
@@ -33,7 +35,7 @@ header img
 }
 #menu {
 	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
+	border: 1px solid var(--border-color);
 	padding: 10px 10px 10px;
     margin-top: 20px;
 	background-color: #eee;
@@ -58,7 +60,7 @@ header img
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     margin:0 auto;
-    background-color: aqua;
+    background-color: var(--navigation-background);
 }
 .navigation li
 {
