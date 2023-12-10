@@ -522,3 +522,18 @@ form label.side
 {
     display: none;
 }
+
+#thankyou
+{
+    text-align: center;
+    display: block;
+}
+#thankyou h2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1rem;
+}
+#thankyou img
+{
+    margin: 0 auto;
+}
