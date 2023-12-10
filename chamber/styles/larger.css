@@ -210,4 +210,24 @@
         font-family: 'Poppins', sans-serif;
         display: grid;
     }
+    form label.side
+    {
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    form label.top
+    {
+     font-size: 1.2rem;
+     font-family: 'Poppins', sans-serif;
+    }
+    form label.top input, form textarea
+    {
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    #submitbtn
+    {
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+    }
 }
