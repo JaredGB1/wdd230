@@ -30,30 +30,80 @@
                <li> <a href="join.html">Join</a> </li>
             </ul>
         </nav>
+        <div id="joinGrid">  
         <form method="get" action="thankyou.html" title="UserInformation">
+        <h2>Join Us Form</h2>    
             <fieldset>
                 <legend>Personal Information</legend>
-                <label>First Name<input type="text" required name="firstName" id="firstName"></label>
-                <label>Last Name<input type="text" name="lastName" id="lastName" required></label>
-                <label>Title or Position<input type="text" name="position" id="position" pattern="[A-Za-z\-\s]{7,}" ></label>
-                <label>Email Address<input type="email" required name="email" id="email" placeholder="hello@domain.com"></label>
-                <label>Mobile Phone Number<input type="tel" required name="phone" id="phone"></label>
+                <label class="top">First Name<span class="required">*</span><input type="text" required name="firstName" id="firstName"></label>
+                <label class="top">Last Name<span class="required">*</span><input type="text" name="lastName" id="lastName" required></label>
+                <label class="top">Title or Position<input type="text" name="position" id="position" pattern="[A-Za-z\-\s]{7,}" ></label>
+                <label class="top">Email Address<span class="required">*</span><input type="email" required name="email" id="email" placeholder="hello@domain.com"></label>
+                <label class="top">Mobile Phone Number<span class="required">*</span><input type="tel" required name="phone" id="phone"></label>
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label>Business/Organization Name<input type="text" required name="orgName" id="orgName"></label>
-                <label>Business/Organization Description<textarea name="orgDescription" id="orgDescription"></textarea></label>
+                <label class="top">Business/Organization Name<span class="required">*</span><input type="text" required name="orgName" id="orgName"></label>
+                <label class="top">Business/Organization Description<textarea name="orgDescription" id="orgDescription"></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Level</legend>
-                <label><input type="radio" name="membership" value="npMembership">NP Membership</label>
-                <label><input type="radio" name="membership" value="bronzeMembership">Bronze Membership</label>
-                <label><input type="radio" name="membership" value="silverMembership">Silver Membership</label>
-                <label><input type="radio" name="membership" value="goldMembership">Gold Membership</label>
+                <label class="side"><input type="radio" name="membership" value="goldMembership">Gold Membership $50</label>
+                <label class="side"><input type="radio" name="membership" value="silverMembership">Silver Membership $30</label>
+                <label class="side"><input type="radio" name="membership" value="bronzeMembership">Bronze Membership $10</label>
+                <label class="side"><input type="radio" name="membership" value="npMembership">NP Membership $0</label>
             </fieldset>
                 <label><input type="hidden" name="timeStamp" id="timeStamp"></label>
             <input type="submit" id="submitBtn" value="Join the Chamber of Commerce">
         </form>
+        <div id="membershipDescription">
+            <h2>Membership Options</h2>
+            <section id="membershipG">
+                <div class="imageGrid">
+                    <img class="memberImg" src="images/gold.webp" alt="Gold Membership" loading="lazy" width="140" height="93">
+                </div>
+                <div class="content">
+                    <h3>Gold Membership $50</h3>
+                    <p>- Access to Exclusive spotlight in the home page</p>
+                    <p>- Access to Exclusive 25% event discount</p>
+                    <p>- Previous Benefits from Silver and Bronze Memberships</p>
+                </div>
+            </section>
+            <section id="membershipS">
+                <div class="imageGrid">
+                    <img class="memberImg" src="images/silver.webp" alt="Silver Membership" loading="lazy" width="140" height="93">
+                </div>
+                <div class="content">
+                    <h3>Silver Membership $30</h3>
+                    <p>- Access to Exclusive events</p>
+                    <p>- Access to Exclusive 15% event discount</p>
+                    <p>- Previous Benefits from Bronze Membership</p>
+                </div>
+            </section>
+            <section id="membershipB">
+                <div class="imageGrid">
+                    <img class="memberImg" src="images/bronze.webp" alt="Bronze Membership" loading="lazy" width="140" height="93">
+                </div>
+                <div class="content">
+                    <h3>Bronze Membership Benefits $10</h3>
+                    <p>- Access to Exclusive Trainings</p>
+                    <p>- Access to Exclusive 5% event discount</p>
+                </div>
+                
+            </section>
+            <section id="membershipNP">
+                <div class="imageGrid">
+                    <img class="memberImg" src="images/np.webp" alt="NP Membership" loading="lazy" width="140" height="93">
+                </div>
+                <div class="content">
+                    <h3>Non Profit Membership Free</h3>
+                    <p>- Enjoy the benefits of joining the Chamber of Commerce</p>
+                    <p>- Support from the Chamber of Commerce Members</p>
+                </div>
+            </section>
+            
+        </div>
+    </div>
     </main>
     <footer>
         <section id="generalInformation">
@@ -75,5 +125,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerButton.js"></script>
+    <script src="scripts/joinDate.js"></script>
 </body>
 </html>

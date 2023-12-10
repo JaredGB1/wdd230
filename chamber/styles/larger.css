@@ -165,4 +165,49 @@
     {
         box-shadow: 0 0 50px #333;
     }
+    #joinGrid
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    form
+    {
+        grid-column: 1/2;
+    }
+    #membershipDescription
+    {
+        grid-column: 2/3;
+    }
+    .imageGrid
+    {
+        grid-column: 1/2;
+    }
+    .content
+    {   
+        grid-column: 2/3;
+        display: block;
+    }
+
+    .memberImg
+    {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 30px;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+    #membershipG, #membershipS, #membershipB, #membershipNP
+    {
+        grid-template-columns: 1fr 2fr;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 10px; 
+        border: 2px solid #2832C2;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+    }
 }
