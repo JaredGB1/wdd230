@@ -1,5 +1,8 @@
 @media (min-width: 800px) 
 {
+    header{
+        font-size: 1.6rem;
+    }
     .navigation
     {
         font-family: 'Oswald', sans-serif;
