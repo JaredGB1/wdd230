@@ -148,8 +148,13 @@ main h2
     text-align: left;
     
 }
+.card li
+{
+    font-size: 1.1rem;
+}
 .card li a
 {
+    
     margin-left: 5px;
     text-decoration: none;
 }
