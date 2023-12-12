@@ -661,3 +661,20 @@ form label.side
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
+
+.banner {
+    display: none;
+    padding: 10px;
+    background-color:#EBF2FA;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    z-index: 1;
+}
+
+.close-btn {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
