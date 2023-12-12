@@ -6,7 +6,7 @@
             "address": "123 Innovation Street, Tech City",
             "phone": "+1 (555) 123-4567",
             "websiteurl": "techinnovators.com",
-            "icon":"images/",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/tech.webp",
             "membership":"Gold",
             "description":" Leading provider of cutting-edge technology solutions."
         },
@@ -15,7 +15,7 @@
             "address": "789 Culinary Avenue, Foodville",
             "phone": "+1 (555) 789-0123",
             "websiteurl": "gourmetdelights.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/gourmet.webp",
             "membership":"Silver",
             "description":"Specializing in exquisite catering for events."
         },
@@ -24,7 +24,7 @@
             "address": "456 Eco Lane, Sustainable City",
             "phone": "+1 (555) 456-7890",
             "websiteurl": "greenenergy.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/green.webp",
             "membership":"Gold",
             "description":"Pioneers in renewable energy technologies."
         },
@@ -33,7 +33,7 @@
             "address": "101 Shipping Boulevard, Transport Town",
             "phone": "+1 (555) 101-0101",
             "websiteurl": " globallogisticsgroup.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/global.webp",
             "membership":"Bronze",
             "description":"Reliable international logistics services."
         },
@@ -42,7 +42,7 @@
             "address": "Address: 222 Artistic Avenue, Creativity Central",
             "phone": "+1 (555) 222-2222",
             "websiteurl": "creativemindsdesign.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/creative.webp",
             "membership":"Silver",
             "description":" Innovative graphic and web design services."
         },
@@ -51,7 +51,7 @@
             "address": "555 Mansion Road, Opulence City",
             "phone": "+1 (555) 555-5555",
             "websiteurl": "luxurylivingrealestate.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/luxury.webp",
             "membership":"Gold",
             "description":"Exclusive properties for discerning clients."
         },
@@ -60,7 +60,7 @@
             "address": "303 Green Street, Eco City",
             "phone": "+1 (555) 303-0303",
             "websiteurl": "ecotechrecycling.com",
-            "icon":"",
+            "icon":"https://jaredgb1.github.io/wdd230/chamber/images/echo.webp",
             "membership":"NP",
             "description":"Leading the way in sustainable recycling."
         }
