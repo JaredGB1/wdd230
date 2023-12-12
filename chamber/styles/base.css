@@ -550,3 +550,85 @@ form label.side
 {
     margin: 0 auto;
 }
+/*Directory page*/
+
+.menu {
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: skyblue;
+	text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.menu button {
+    margin: 0 auto;
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.membersGrid {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 20px;
+    gap: 15px;
+}
+.membersGrid section {
+    font-family: 'Poppins', sans-serif;
+	text-align: center;
+    background-color: #EBF2FA;
+    padding: 15px;
+    box-shadow: 0 0 10px #333;
+}
+.membersGrid h3
+{
+    font-family: 'Oswald', sans-serif;
+}
+.membersGrid p
+{
+    font-family: 'Poppins', sans-serif;
+}
+.membersGrid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.membersList {
+	display: block;
+	flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.membersList section img {
+	display: none;
+}
+.membersList section
+{
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 3px;
+}
+.membersList section h3 {
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+}
+.membersList p
+{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.membersList a
+{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.membersList section:nth-child(even) {
+	background-color: #EBF2FA;
+}

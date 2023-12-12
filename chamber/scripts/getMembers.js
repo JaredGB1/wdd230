@@ -21,7 +21,17 @@ const displayLinks= (data) =>
         let membership=document.createElement('p');
         let description=document.createElement('p');
         img.setAttribute("src", member.icon);
-
+        img.setAttribute("alt", `${member.name} logo`);
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('width', '153');
+        img.setAttribute('height', '96');
+        name.innerHTML=`${member.name}`;
+        address.innerHTML=`${member.address}`;
+        phone.innerHTML=`${member.phone}`;
+        website.innerHTML=`${member.websiteurl}`;
+        website.setAttribute("href", member.websiteurl);
+        membership.innerHTML=`${member.membership}`;
+        description.innerHTML=`${member.description}`;
         section.appendChild(img);
         section.appendChild(name);
         section.appendChild(address);
