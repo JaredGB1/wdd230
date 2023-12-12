@@ -46,18 +46,15 @@
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
-                <li>Week 01: <a class="links" href="week01/holygrail.html">Layout |</a> <a class="links" href="week01/mediaquery.html">Media Query |</a> <a  class="links" href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></li>
-                <li>Week 02: <a class="links" href="week02/design.html">Design Principles |</a> <a class="links" href="https://codepen.io/Mynor-Jared-Gonzalez/pen/rNPwpxp">Code Pen Responsive Menu |</a> <a class="links" href="week02/bom.html">DOM Manipulation</a></li>
-                <li>Week 03: <a class="links" href="week03/images/landscape.webp">WebP |</a> <a class="links" href="week03/lazyload.html">Lazy Load Demonstration |</a> <a class="links" href="week03/responsive-images.html">Responsive images |</a> <a class="links" href="week03/bom.html">Book of Mormon List</a></li>
-                <li>Week 04: <a class="links" href="https://codepen.io/Mynor-Jared-Gonzalez/pen/wvNjOvV">Code Pen CSS Pseudo-Classes |</a><a class="links" href="week04/images/screenshot.png">CSS combinators Screenshot |</a><a class="links" href="week04/tablebuild.html">Table Build</a></li>
-                <li>Week 05: <a class="links" href="#"></a></li>
-                <li>Week 06: <a class="links" href="#"></a></li>
+            <ul id="weekLinks">
+              
             </ul>
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Weather</p>
+            <div id="weather">
+                <img id="weatherIcon" src="" alt=""> <p><span id="temperature"></span> - <span id="weatherDescription"></span></p>
+            </div>
             <p>Number of Visits: <span id="visits"></span></p>
         </section>
     </main>
@@ -70,5 +67,6 @@
     <script src="scripts/hamburgerButton.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/numberVisits.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

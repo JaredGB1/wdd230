@@ -1,0 +1,28 @@
+{
+    "familyName" : "Gonzalez Benavente",
+    "date" : "03/15/2023",
+    "numberOfPeople": "4",
+    "visitedByBishopric": "no",
+    "individualFamilyMembers": [
+        {
+            "name" : "Karina Benavente",
+            "gender" : "Female",
+            "birthdate" : "07/12/1975"
+        },
+        {
+            "name" : "Jared Gonzalez Benavente",
+            "gender" : "Male",
+            "birthdate" : "07/02/2000"
+        },
+        {
+            "name" : "Moises Gonzalez Benavente",
+            "gender" : "Female",
+            "birthdate" : "07/02/2000"
+        },
+        {
+            "name" : "Amy Gonzalez Benavente",
+            "gender" : "Female",
+            "birthdate" : "03/25/2004"
+        }
+    ]
+}

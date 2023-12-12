@@ -1,0 +1,107 @@
+{
+    "weeks": 
+    [ 
+        {
+            "week": "Week 1",
+            "links": 
+            [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/mediaquery.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Chamber of Commerce Site Plan"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": 
+            [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Mynor-Jared-Gonzalez/pen/rNPwpxp",
+                    "title": "Code Pen Responsive Menu"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": 
+            [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load Demonstration"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Book of Mormon List"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": 
+            [
+                {
+                    "url": "https://codepen.io/Mynor-Jared-Gonzalez/pen/wvNjOvV",
+                    "title": "Code Pen CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/screenshot.png",
+                    "title": "CSS combinators Screenshot"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "https://codepen.io/Mynor-Jared-Gonzalez/pen/PoVLMZm",
+                    "title": "Code Pen CSS Pseudo-elements"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": 
+            [
+                {
+                    "url": "https://codepen.io/Mynor-Jared-Gonzalez/pen/PoVLMZm",
+                    "title": "Code Pen CSS Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "New Ward Members Json"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets Page"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
+                }
+            ]
+        }
+    ] 
+}
