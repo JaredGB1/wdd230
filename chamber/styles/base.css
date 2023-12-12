@@ -50,6 +50,7 @@ header img
     font-family: 'Oswald', sans-serif;
     margin:0 auto;
     background-color: skyblue;
+    padding: 0;
 }
 .navigation li
 {
@@ -677,4 +678,8 @@ form label.side
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+nav .active {
+    background-color: #BDE0FE;
 }
